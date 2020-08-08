@@ -1,0 +1,12 @@
+[flake8]
+show-source = true
+statistics = true
+max-line-length = 80
+exclude =
+  .git,
+
+ignore =
+  # E402 module level import not at top of file
+  E402,
+  # W504, line break after binary operator
+  W504,
